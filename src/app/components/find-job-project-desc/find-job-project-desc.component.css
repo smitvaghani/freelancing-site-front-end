@@ -1,0 +1,100 @@
+body{
+    padding-top: 3%;
+    padding-bottom: 2%;
+    background-color: #f1f1f1;
+}
+
+textarea {
+    width:100% !important;
+}
+
+.bid-day {
+    display: inline-block;
+}
+
+.card{
+    box-shadow: 0 0 4px 0 rgb(0 0 0 / 8%);
+    width:90%;
+    margin: 20px auto;
+    margin-bottom: 40px;
+    padding: 2%;
+    border: groove 2px rgb(98, 138, 98);
+}
+.projectDetails{
+    display: inline;
+    
+}
+.card-title{
+    font-weight: 500;
+    font-size: 25px;
+}
+.projectBudget{
+    float: right;
+    font-size: 18px;
+    font-weight: 500;
+}
+.card-text{
+    width: 80%;
+}
+.projectCategoryLabel{
+    font-size: larger;
+    font-weight: 500;
+}
+
+.projectCategory{
+    font-size: 14px;
+    padding: 4px;
+}
+
+
+.projectDuration{
+    float: right;
+    font-size: 18px;
+}
+
+textarea{
+    resize: none;
+    height: 50px;
+    width: 90%;
+}
+.fileLink{
+    cursor: pointer;
+}
+
+mat-form-field {
+    width: 100%;
+}
+
+.btn{
+    width: 380px;
+    background: green;
+    color: white;
+    margin-top: 15px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+.btn-bid{
+    margin: auto;
+    width: fit-content;
+}
+.file-input{
+    display: none;
+}
+
+.file-upload{
+    /* background-color: rgb(240, 239, 239); */
+    margin-top: 15px;
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.cancel-upload{
+    display: inline-block;
+}
+.cancel-upload:hover{
+    cursor: pointer;
+}
+.uploadProgress{
+    display: inline-block;
+}
